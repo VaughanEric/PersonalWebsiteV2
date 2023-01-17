@@ -1,0 +1,26 @@
+.portrait {
+  text-align: center;
+}
+
+.portrait svg {
+  width: 70%;
+  padding-top: 2.25rem;
+}
+
+.values-heading {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.quote {
+  margin: rem 0 0;
+}
+
+.quote, .quote-author {
+  color: var(--dark-green);
+}
+
+.values-list li::marker {
+  content: "◊   ";
+  color: var(--medium-green);
+}

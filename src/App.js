@@ -15,32 +15,32 @@ function App() {
       <Grid item xs={12}>
         <Header className="header" />
       </Grid>
-      <Grid item xs={12} md={6} className="about-title">
-        <Title title="About" />
+      <Grid item xs={12} md={6} id="about" className="about-title">
+        <Title title="About" navbarColor="dark-grey" />
       </Grid>
       <Grid item xs={12} md={6} className="about-details">
         <AboutDetails />
       </Grid>
-      <Grid item xs={12} md={6} className="experience-title">
-        <Title title="Experience" />
+      <Grid item xs={12} md={6} id="experience" className="experience-title">
+        <Title title="Experience" navbarColor="dark-grey" />
       </Grid>
       <Grid item xs={12} md={6} className="experience-details">
         <ExperienceDetails />
       </Grid>
-      <Grid item xs={12} md={6} className="education-title">
-        <Title title="Education" />
+      <Grid item xs={12} md={6} id="education" className="education-title">
+        <Title title="Education" navbarColor="white" />
       </Grid>
       <Grid item xs={12} md={6} className="education-details">
         <EducationDetails />
       </Grid>
-      <Grid item xs={12} md={6} className="skills-title">
-        <Title title="Skills" />
+      <Grid item xs={12} md={6} id="skills" className="skills-title">
+        <Title title="Skills" navbarColor="dark-grey" />
       </Grid>
       <Grid item xs={12} md={6} className="skills-details">
         <SkillsDetails />
       </Grid>
-      <Grid item xs={12} md={6} className="contact-title">
-        <Title title="Contact" />
+      <Grid item xs={12} md={6} id="contact" className="contact-title">
+        <Title title="Contact" navbarColor="medium-green" />
       </Grid>
       <Grid item xs={12} md={6} className="contact-details">
         <ContactDetails />

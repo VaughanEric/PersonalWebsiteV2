@@ -1,0 +1,28 @@
+.desktop-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.desktop-navbar a {
+  text-decoration: none;
+}
+
+.desktop-navbar .MuiBreadcrumbs-separator {
+  font-size: 1.25rem;
+}
+
+.desktop-navbar .MuiBreadcrumbs-li {
+  margin: 0 0.25rem;
+}
+
+.white a, .white .MuiBreadcrumbs-separator {
+  color: white;
+}
+
+.dark-grey a, .dark-grey .MuiBreadcrumbs-separator {
+  color: var(--dark-grey);
+}
+
+.medium-green a, .medium-green .MuiBreadcrumbs-separator {
+  color: var(--medium-green);
+}

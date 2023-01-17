@@ -1,13 +1,19 @@
 import './Header.css'
+import DesktopNavbar from '../Navbars/DesktopNavbar'
+
+import Grid from '@mui/material/Grid'
 
 function Header() {
   return (
-    <div className="header">
-      <div className="greeting">
-        <h3>Howdy, I'm</h3>
+    <Grid container spacing={0} className="header">
+      <Grid item xs={12} className="greeting">
+        <h2>Howdy, I'm</h2>
         <h1>Eric Vaughan</h1>
-      </div>
-    </div>
+      </Grid>
+      <Grid item xs={12} className="navbar">
+        <DesktopNavbar color="medium-green" />
+      </Grid>
+    </Grid>
   );
 }
 
