@@ -1,0 +1,61 @@
+:root {
+  --dark-grey: #161616;
+  --dark-green: #5e8b6f;
+  --medium-green: #acdeaa;
+  --light-green: #e4efe7;
+}
+
+.header {
+  background-color: var(--dark-grey);
+  height: 100vh;
+}
+
+.about-title {
+  background-color: var(--medium-green);
+  height: 100vh;
+}
+
+.about-details {
+  background-color: white;
+  height: 100vh;
+}
+
+.experience-title {
+  background-color: white;
+  height: 100vh;
+}
+
+.experience-details {
+  background-color: var(--light-green);
+  height: 100vh;
+}
+
+.education-title {
+  background-color: var(--dark-green);
+  height: 100vh;
+}
+
+.education-details {
+  background-color: white;
+  height: 100vh;
+}
+
+.skills-title {
+  background-color: white;
+  height: 100vh;
+}
+
+.skills-details {
+  background-color: var(--medium-green);
+  height: 100vh;
+}
+
+.contact-title {
+  background-color: var(--dark-grey);
+  height: 100vh;
+}
+
+.contact-details {
+  background-color: white;
+  height: 100vh;
+}
