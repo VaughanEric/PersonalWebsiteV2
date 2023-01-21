@@ -1,0 +1,22 @@
+.skills-row {
+  width: 100%;
+}
+
+tr:hover {
+  background-color: #c3f5bf;
+}
+
+tr:hover .star-icon{
+  transition: margin-left .25s ease-in-out;
+  margin-left: 0.25rem;
+}
+
+.td-right {
+  color: var(--dark-green);
+  display: flex;
+  justify-content: right;
+}
+
+.td-right .MuiSvgIcon-root {
+  margin-top: 4px
+}

@@ -11,6 +11,7 @@
   background-color: var(--light-green);
   color: var(--dark-green);
   display: block;
+  position: relative;
 }
 
 #icon {
@@ -39,7 +40,7 @@
 }
 
 .utk-summary .MuiAccordionSummary-expandIconWrapper, .siegel-summary .MuiAccordionSummary-expandIconWrapper {
-  position: relative;
+  position: absolute;
   width: 40px;
   height: 40px;
   bottom: 1rem;

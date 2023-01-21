@@ -1,0 +1,16 @@
+.skills-table {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+
+.skills-heading {
+  margin: 0 0 1rem;
+  font-size: 1.5rem
+}
+
+.hobbies li::marker {
+  content: "◊   ";
+  color: var(--dark-green);
+}
