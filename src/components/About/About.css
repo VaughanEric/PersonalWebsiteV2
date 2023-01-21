@@ -24,3 +24,7 @@
   content: "◊   ";
   color: var(--medium-green);
 }
+
+.education-category {
+  font-size: 1.5rem;
+}

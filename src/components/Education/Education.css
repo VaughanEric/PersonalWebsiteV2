@@ -1,0 +1,62 @@
+#utk, #siegel {
+  margin: 0;
+}
+
+#utk {
+  border-bottom: 1px solid white;
+}
+
+.utk-summary.MuiAccordionSummary-root, .siegel-summary.MuiAccordionSummary-root {
+  height: 49.7vh;
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  display: block;
+}
+
+#icon {
+  color: var(--dark-green);
+  font-size: 40px;
+}
+
+#school-name {
+  font-size: 1.5rem;
+}
+
+.school-logo {
+  width: 30%;
+  height: 30%;
+}
+
+.utk-summary .MuiAccordionSummary-content, .siegel-summary .MuiAccordionSummary-content {
+  margin: 0;
+  display: block;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.utk-summary .MuiAccordionSummary-content.Mui-expanded, .siegel-summary .MuiAccordionSummary-content.Mui-expanded {
+  margin: 0;
+}
+
+.utk-summary .MuiAccordionSummary-expandIconWrapper, .siegel-summary .MuiAccordionSummary-expandIconWrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+#utk-details, #siegel-details {
+  border-left: 2px solid var(--light-green);
+  border-right: 2px solid var(--light-green);
+  background-color: white;
+  padding: 3rem 4rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+#utk-details li::marker, #siegel-details li::marker {
+  content: "◊   ";
+  color: #acdeaa;
+}
+

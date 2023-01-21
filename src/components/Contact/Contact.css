@@ -1,0 +1,28 @@
+/* For Bigger Screens: 
+.contact-grid-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+} 
+*/
+
+.contact-name {
+  font-size: 1.5rem;
+  margin: 3rem 0 0;
+}
+
+.personal-title {
+  margin: 0;
+}
+
+.contact-link {
+  color: var(--dark-green);
+}
+
+.contact-link:hover {
+  color: var(--dark-grey);
+}
+
+.update-date {
+  margin-top: 4rem;
+}

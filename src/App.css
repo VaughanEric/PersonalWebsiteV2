@@ -22,24 +22,27 @@
   border-bottom: 1px solid var(--light-green);
 }
 
-.experience-title {
+.education-title {
   background-color: white;
   color: var(--dark-green);
   height: 100vh;
 }
 
-.experience-details {
+.education-details {
   background-color: var(--light-green);
   height: 100vh;
+  padding-bottom: 0;
+  border-top: 1px solid var(--light-green);
+  border-bottom: 2px solid var(--light-green);
 }
 
-.education-title {
+.experience-title {
   background-color: var(--dark-green);
   color: white;
   height: 100vh;
 }
 
-.education-details {
+.experience-details {
   background-color: white;
   height: 100vh;
   border-bottom: 1px solid var(--medium-green);
@@ -68,11 +71,14 @@
 }
 
 .about-details, .experience-details, .education-details, .skills-details, .contact-details {
-  padding: 4.5rem 4rem;
   line-height: 2;
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* IE 10+ */
+}
+
+.about-details, .experience-details, .skills-details, .contact-details {
+  padding: 4.5rem 4rem;
 }
 
 .about-details::-webkit-scrollbar, .experience-details::-webkit-scrollbar, .education-details::-webkit-scrollbar, .skills-details::-webkit-scrollbar, .contact-details::-webkit-scrollbar {

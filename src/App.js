@@ -21,17 +21,17 @@ function App() {
       <Grid item xs={12} md={6} className="about-details">
         <AboutDetails />
       </Grid>
-      <Grid item xs={12} md={6} id="experience" className="experience-title">
-        <Title title="Experience" navbarColor="dark-grey" />
-      </Grid>
-      <Grid item xs={12} md={6} className="experience-details">
-        <ExperienceDetails />
-      </Grid>
       <Grid item xs={12} md={6} id="education" className="education-title">
-        <Title title="Education" navbarColor="white" />
+        <Title title="Education" navbarColor="dark-grey" />
       </Grid>
       <Grid item xs={12} md={6} className="education-details">
         <EducationDetails />
+      </Grid>
+      <Grid item xs={12} md={6} id="experience" className="experience-title">
+        <Title title="Experience" navbarColor="white" />
+      </Grid>
+      <Grid item xs={12} md={6} className="experience-details">
+        <ExperienceDetails />
       </Grid>
       <Grid item xs={12} md={6} id="skills" className="skills-title">
         <Title title="Skills" navbarColor="dark-grey" />
