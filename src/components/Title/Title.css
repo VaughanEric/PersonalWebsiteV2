@@ -11,3 +11,19 @@
 .title-navbar {
   margin-top: 20vh;
 }
+
+/* iPhone Landscape Styling */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 1000px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      .title h1 {
+        margin-top: 30vh;
+      }
+
+      .title-navbar {
+        margin-top: 10vh;
+      }
+    }

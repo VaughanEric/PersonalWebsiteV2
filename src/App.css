@@ -85,3 +85,22 @@
   background: transparent; /* Chrome/Safari/Webkit */
   width: 0px;
 }
+
+@media (max-width: 899px) {
+  .about-details {
+    border: none;
+  }
+
+  .education-title {
+    background-color: var(--dark-grey);
+    color: white
+  }
+
+  .experience-details {
+    border: none;
+  }
+
+  .skills-title {
+    background-color: var(--light-green);
+  }
+}

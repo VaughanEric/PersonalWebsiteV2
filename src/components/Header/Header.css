@@ -32,3 +32,23 @@
   justify-content: center;
   align-items: center;
 }
+
+/* iPhone Portrait Styling */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      .greeting {
+        padding-top: 25vh;
+      }
+
+      .greeting h1 {
+        line-height: 7rem;
+      }
+
+      .greeting h2 {
+        margin-bottom: 5rem;
+      }
+    }

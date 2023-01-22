@@ -61,3 +61,31 @@
   color: #acdeaa;
 }
 
+/* iPhone Portrait Styling */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 812px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      .utk-summary .MuiAccordionSummary-content, .siegel-summary .MuiAccordionSummary-content {
+        padding-top: 8rem;
+      }
+
+      .school-logo {
+        width: 40%;
+        height: 40%;
+      }
+    }
+
+/* iPhone Landscape Styling */
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 1000px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      .utk-summary.MuiAccordionSummary-root, .siegel-summary.MuiAccordionSummary-root {
+        height: 100vh;
+      }
+    }

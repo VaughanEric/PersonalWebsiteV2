@@ -60,3 +60,12 @@
     display: none;
   }
 }
+
+@media (max-width: 899px) {
+  #education a, #education .MuiBreadcrumbs-separator {
+    color: var(--medium-green);
+  } 
+  #education a:after {
+    background-color: white;
+  }
+}
