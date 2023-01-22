@@ -5,7 +5,6 @@ import Link from '@mui/material/Link'
 
 function DesktopNavbar(props) {
   function ScrollToSection(section) {
-    console.log(section);
     document.getElementById(section).scrollIntoView({behavior: "smooth", block: "start"});
   }
 

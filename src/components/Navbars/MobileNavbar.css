@@ -1,0 +1,25 @@
+.mobile-navbar {
+  position: fixed;
+  z-index: 1;
+}
+
+.menu-button {
+  background-color: white;
+  color: var(--dark-grey);
+  border: 1px solid var(--dark-grey);
+  border-radius: 10%;
+}
+
+.About, .Education, .Experience, .Skills {
+  border-bottom: 1px solid var(--light-green);
+}
+
+.drawer-text {
+  color: var(--dark-green);
+}
+
+@media (min-width: 540px) {
+  .mobile-navbar {
+    display: none;
+  }
+}
