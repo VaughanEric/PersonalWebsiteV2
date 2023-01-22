@@ -54,3 +54,9 @@
   width: 100%; 
   left: 0; 
 }
+
+@media (max-width: 539px) {
+  .desktop-navbar {
+    display: none;
+  }
+}
