@@ -8,7 +8,7 @@ function Stars(props) {
   var numStars = props.numStars
   for (var i = 0; i < 5; i++) {
     if (numStars >= 1) stars.push(<StarOutlinedIcon className="star-icon" />);
-    else if (numStars == 0.5) stars.push(<StarHalfOutlinedIcon className="star-icon" />);
+    else if (numStars === 0.5) stars.push(<StarHalfOutlinedIcon className="star-icon" />);
     else stars.push(<StarBorderOutlinedIcon className="star-icon" />);
     numStars--;
   }

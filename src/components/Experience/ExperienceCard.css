@@ -1,0 +1,26 @@
+.card-content {
+  background-color: var(--light-green);
+  /* height: 65vh; */
+}
+
+.card-heading {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.card-subheading {
+  font-weight: bold;
+  font-style: italic;
+  color: var(--dark-green);
+  margin: 0;
+}
+
+.card-date {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.card-content li::marker {
+  content: "◊   ";
+  color: var(--dark-green);
+}
