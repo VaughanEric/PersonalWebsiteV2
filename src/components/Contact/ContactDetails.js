@@ -28,7 +28,10 @@ function ContactDetails() {
         <a href="mailto:hello.ericvaughan@gmail.com" className="contact-link">hello.ericvaughan@gmail.com</a>
       </Grid>
       <Grid item xs={12}>
-        <p className="update-date">Site by Eric Vaughan (Updated as of January 2023)</p>
+        <p className="credits">Site by Eric Vaughan</p>
+      </Grid>
+      <Grid item xs={12}>
+        <p className="update-date">(Updated as of January 2023)</p>
       </Grid>
     </Grid>
     </div>

@@ -23,6 +23,10 @@
   color: var(--dark-grey);
 }
 
+.credits {
+  margin: 4rem 0 0;
+}
+
 .update-date {
-  margin-top: 4rem;
+  margin-top: 0;
 }
