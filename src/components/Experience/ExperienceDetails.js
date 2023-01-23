@@ -6,7 +6,7 @@ import Carousel from 'react-material-ui-carousel'
 function ExperienceDetails() {
   var experiences = [
     {
-      heading: "MABE Labs (at UTK)", 
+      heading: "MABE Labs (UTK)", 
       subheading: "Undergraduate Research Student",
       date: "August 2022 - Present | Knoxville, TN",
       details: [
@@ -25,7 +25,7 @@ function ExperienceDetails() {
       ]
     },
     {
-      heading: "Raising A Voice (through Hack 4 Impact UTK)",
+      heading: "Raising A Voice (Hack 4 Impact UTK)",
       subheading: "Front-End Developer",
       date: "September 2021 - May 2022 | Knoxville, TN",
       details: [
