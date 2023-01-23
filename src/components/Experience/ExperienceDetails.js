@@ -60,8 +60,6 @@ function ExperienceDetails() {
     <Carousel 
       autoPlay={false}
       height={"90%"}
-      preventMovementUntilSwipeScrollTolerance={true}
-      swipeScrollTolerance={100}
       className="carousel"
     >
       {experiences.map((experience) => {
