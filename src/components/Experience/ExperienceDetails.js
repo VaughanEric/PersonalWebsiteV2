@@ -30,9 +30,9 @@ function ExperienceDetails() {
       date: "September 2021 - May 2022 | Knoxville, TN",
       details: [
         "Collaborated with a team of 6 developers to create a React-based, mobile-friendly website",
-        "Provided constructive feedback and assistance to peers during weekly meetings",
+        "Provided weekly feedback and assistance to peers",
         "Constructed a profile creation system",
-        "Implemented a search feature that obtains and filters profiles profiles from a database",
+        "Implemented a search feature that obtains and filters profiles from a database",
         "Produced a calendar component"
       ]
     },
