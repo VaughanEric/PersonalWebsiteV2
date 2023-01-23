@@ -9,7 +9,7 @@ function SkillsDetails() {
     {name: "Javascript", numStars: 3.5},
     {name: "C# / Xamarin", numStars: 3},
     {name: "Kotlin", numStars: 3},
-    {name: "MongoDB / Mongoose", numStars: 3},
+    {name: "MongoDB", numStars: 3},
     {name: "Node / Express", numStars: 3},
     {name: "Angular", numStars: 2.5},
     {name: "Python", numStars: 2}
