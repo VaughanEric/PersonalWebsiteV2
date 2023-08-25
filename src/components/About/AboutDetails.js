@@ -10,8 +10,8 @@ function AboutDetails() {
           I am an undergraduate student studying computer science and business administration at the University of Tennessee, Knoxville.
         </p>
         <p>
-          Currently, I am focusing on furthering my web and Android application skillsets.
-          However, I also plan to concentrate on iOS development and machine learning in the near future.
+          Over the past few years, I have focused on full-stack development, gaining critical experience Sam's Club, Trimble Inc., undergraduate research, and personal projects.
+          However, this year, I plan to explore two new areas: machine learning and iOS development.
         </p>
       </Grid>
       <Grid item xs={12} className="portrait">

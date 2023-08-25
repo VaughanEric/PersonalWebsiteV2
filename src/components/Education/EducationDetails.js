@@ -59,7 +59,7 @@ function EducationDetails() {
         </AccordionSummary>
         <AccordionDetails id="utk-details">
           <ul>
-            <li>Junior in the Tickle College of Engineering Class of 2024</li>
+            <li>Senior in the Tickle College of Engineering Class of 2024</li>
             <li>Current GPA of 4.0</li>
             <li>Major: Computer Science</li>
             <li>Minor: Business Administration</li>
@@ -72,8 +72,10 @@ function EducationDetails() {
             <li>Data Structures & Algorithms I</li>
             <li>Data Structures & Algorithms II</li>
             <li>Discrete Structures</li>
+            <li>Fundamentals of Digital Archeology</li>
             <li>Introduction to Cybersecurity</li>
             <li>Introduction to Data Mining and Analytics</li>
+            <li>Introduction to Machine Learning</li>
             <li>Operating Systems</li>
             <li>Programming Languages and Systems</li>
             <li>Software Engineering</li>

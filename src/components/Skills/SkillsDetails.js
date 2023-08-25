@@ -4,15 +4,16 @@ import SkillsRow from './SkillsRow'
 function SkillsDetails() {
   const skills = [
     {name: "C / C++", numStars: 4.5},
+    {name: "Kotlin", numStars: 4.5},
     {name: "React", numStars: 4.5},
     {name: "HTML / CSS", numStars: 4.5},
     {name: "Javascript", numStars: 3.5},
+    {name: "Python", numStars: 3.5},
+    {name: "Splunk", numStars: 3},
     {name: "C# / Xamarin", numStars: 3},
-    {name: "Kotlin", numStars: 3},
     {name: "MongoDB", numStars: 3},
     {name: "Node / Express", numStars: 3},
     {name: "Angular", numStars: 2.5},
-    {name: "Python", numStars: 2}
   ]
   return (
     <div>
